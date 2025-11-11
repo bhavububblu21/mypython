@@ -1,0 +1,6 @@
+#odd and even
+NUMBER= int(input("enter the number"))
+if NUMBER%2==0:
+  print ("Even  number")
+else:
+  print("Odd number")
