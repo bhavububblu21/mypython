@@ -1,0 +1,9 @@
+#largest_of_two_numbers
+def largest_of_two_numbers(a,b):
+   if a>b:
+     print(f"{a} is  larger")
+   elif b>a:
+     print(f"{b} is larger")
+   else:
+     print("both the numbers are larger")
+largest_of_two_numbers(5,7)
